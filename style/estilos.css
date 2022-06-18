@@ -12,23 +12,10 @@ body {
 
 .header {
     background-color: rgb(167, 167, 167);
-    padding: 12px;
-    text-align: center;
-    position: sticky;
-    top: 0px;
+    padding: 4px;
 }
 
-nav ul li {
-    display: inline-block;
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-a {
-    text-decoration: none;
+.a {
     font-size: x-large;
     color: brown;
 }
@@ -40,7 +27,7 @@ a {
     font-weight: 500;
 }
 
-nav a:hover {
+nav .a:hover {
     color: aliceblue;
 }
 
@@ -63,6 +50,7 @@ figcaption {
     text-align: center;
     font-size: x-large;
     font-weight: 500;
+    margin-bottom: 0rem;
 }
 
 .galeria {
@@ -92,8 +80,7 @@ figcaption {
 }
 
 #img,
-#video,
-#imagen {
+#video {
     display: flex;
     justify-content: center;
 }
@@ -112,7 +99,7 @@ label {
 }
 
 .input {
-    margin-left: 30%
+    margin-left: 20%
 }
 
 .p {
@@ -126,9 +113,8 @@ label {
     color: brown;
     margin-top: 17%;
     text-align: center;
+    margin-bottom: 0rem;
 }
-
-
 
 .grilla {
     display: grid;
@@ -199,7 +185,7 @@ footer {
     }
 
     .img {
-        width: 350px;
+        width: 300px;
         height: 250px;
     }
 }
@@ -212,14 +198,5 @@ footer {
             "galeria video"
             "galeria   sidebar"
             "footer  footer"
-    }
-
-    
-    #imagen {
-        transition: all 75ms;
-    }
-
-    #imagen:hover {
-        transform: scale(1.2, 1.2)
     }
 }
