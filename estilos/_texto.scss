@@ -1,0 +1,29 @@
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 50px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+
+#a {
+    text-decoration: none;
+    color: black;
+    font-size: $font-size;
+    font-weight: 500;
+}
+
+p,
+figcaption {
+    text-align: center;
+    font-size: $font-size;
+    font-weight: 500;
+    margin-bottom: 0rem;
+}
+
+.p {
+    display: flex;
+    justify-content: left;
+}

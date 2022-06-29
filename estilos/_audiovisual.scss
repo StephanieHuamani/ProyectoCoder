@@ -1,0 +1,23 @@
+.multi {
+    width: 95%;
+    height: 250px;
+    border: 2px solid antiquewhite;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#img,
+#video {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    width: 80%;
+    height: 250px;
+    border: 2px solid antiquewhite;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
