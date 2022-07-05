@@ -9,25 +9,20 @@ body {
   font-family: "Akshar";
 }
 
+.border {
+  border: 1px solid antiquewhite;
+}
+
 .header {
-  background-color: rgb(167, 167, 167);
   padding: 4px;
 }
 
-.a {
+nav .a {
   font-size: x-large;
   color: brown;
 }
-
-#a {
-  text-decoration: none;
-  color: black;
-  font-size: x-large;
-  font-weight: 500;
-}
-
-nav .a:hover {
-  color: aliceblue;
+nav:hover {
+  color: antiquewhite;
 }
 
 h1,
@@ -40,8 +35,11 @@ h3 {
   margin-bottom: 10px;
 }
 
-.border {
-  border: 1px solid antiquewhite;
+#a {
+  text-decoration: none;
+  color: black;
+  font-size: x-large;
+  font-weight: 500;
 }
 
 p,
@@ -52,21 +50,9 @@ figcaption {
   margin-bottom: 0rem;
 }
 
-.galeria {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  gap: 10px;
-  text-align: center;
-}
-
-.img {
-  width: 80%;
-  height: 250px;
-  border: 2px solid antiquewhite;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  text-align: center;
+.p {
+  display: flex;
+  justify-content: left;
 }
 
 .multi {
@@ -82,6 +68,15 @@ figcaption {
 #video {
   display: flex;
   justify-content: center;
+}
+
+.img {
+  width: 80%;
+  height: 250px;
+  border: 2px solid antiquewhite;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .section {
@@ -105,11 +100,6 @@ label {
   width: 60%;
 }
 
-.p {
-  display: flex;
-  justify-content: left;
-}
-
 .footer {
   background-color: rgb(167, 167, 167);
   font-size: x-large;
@@ -117,6 +107,14 @@ label {
   margin-top: 17%;
   text-align: center;
   margin-bottom: 0rem;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+  text-align: center;
 }
 
 .grilla {
