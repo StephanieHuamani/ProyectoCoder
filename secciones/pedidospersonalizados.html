@@ -47,41 +47,58 @@
             <article>
                 <form action="#">
                     <div>
-                        <p class="p">Elegi tu prenda:</p>
-                        <div>Remera
-                            <input type="radio" name="lado" value="remera">
-                        </div>
-                        <div>Buzo
-                            <input type="radio" name="lado" value="buzo">
+                        <p class="pForm">Elegi tu prenda:</p>
+                        <div class="col-2">
+                            <select class="form-select" id="autoSizingSelect">
+                                <option value="1">Remera</option>
+                                <option value="2">Buzo</option>
+                            </select>
                         </div>
                     </div>
-                    <p class="p">¿De qué color queres que sea tu remera y/o buzo?
-                        <select name="letra" id="letra">
-                            <option value="blanco">Blanco</option>
-                            <option value="gris-melange">Gris melange</option>
-                            <option value="negro">Negro</option>
-                        </select>
+                    <p class="pForm">¿De qué color queres que sea tu remera y/o buzo?
+                        <div class="col-3">
+                            <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                            <select class="form-select" id="autoSizingSelect">
+                                <option selected>Color</option>
+                                <option value="1">Blanco</option>
+                                <option value="2">Gris Melange</option>
+                                <option value="3">Negro</option>
+                            </select>
+                        </div>
                     </p>
-                    <p class="p">¿Cuál es tu talla?
-                        <select name="letra" id="letra">
-                            <option value="s">S</option>
-                            <option value="m">M</option>
-                            <option value="l">L</option>
-                        </select>
+                    <p class="pForm">¿Cuál es tu talla?
+                        <div class="col-4">
+                            <select class="form-select" id="autoSizingSelect">
+                                <option selected>Tu talle es...</option>
+                                <option value="1">S</option>
+                                <option value="2">M</option>
+                                <option value="3">L</option>
+                            </select>
+                        </div>
                     </p>
-                    <p class="p">¿Cuántas remeras/buzos querés?</p>
-                    <input type="number" placeholder="Cantidades">
-                    <label for="Obervaciones" class="p">Obervaciones de tu pedido:
-                        <textarea placeholder="Observaciones..."></textarea>
-                    </label>
-                    <input type="submit" value="Enviar" class="input">
-                    <input type="reset" value="Resetear" class="input">
-                </form>
+                    <p class="pForm">¿Cuántas remeras/buzos querés?</p>
+                    <div class="col-2">
+                        <select class="form-select" id="autoSizingSelect">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                    <div class="mb-3 col-8">
+                        <label for="exampleFormControlTextarea1" class="form-label">
+                            <p class="pForm"> Observaciones: </p>
+                        </label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                    </div>
+                    <div class="d-grid gap-5 d-md-flex justify-content-md-center">
+                        <button type="button" class="btn btn-secondary">Enviar</button>
+                        <button type="button" class="btn btn-secondary">Resetear</button>
+                    </div>
             </article>
         </section>
     </main>
     <footer class="border footer">
-        <p>Seguinos para no perderte de nuestras novedades y promociones</p>
+        <p class="textoFooter">Seguinos para no perderte de nuestras novedades y promociones</p>
         <div>
             <a href="https://www.instagram.com/">
                 <img

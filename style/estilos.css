@@ -24,7 +24,7 @@ body {
     text-decoration: none;
     color: black;
     font-size: x-large;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 nav .a:hover {
@@ -47,9 +47,10 @@ h3 {
 
 p,
 figcaption {
+    color: black;
     text-align: center;
     font-size: x-large;
-    font-weight: 500;
+    font-weight:bold;
     margin-bottom: 0rem;
 }
 
@@ -94,12 +95,11 @@ figcaption {
     margin-inline: 25%;
 }
 
-label {
-    display: block;
-}
 
-.input {
-    margin-left: 20%
+.pForm{
+    font-weight: 300;
+    display: flex;
+    justify-content: left;
 }
 
 .p {
@@ -107,10 +107,14 @@ label {
     justify-content: left;
 }
 
-.footer {
-    background-color: rgb(167, 167, 167);
+.textoFooter{
+    font-weight: 500;
     font-size: x-large;
     color: brown;
+}
+
+.footer {
+    background-color: rgb(167, 167, 167);
     margin-top: 17%;
     text-align: center;
     margin-bottom: 0rem;

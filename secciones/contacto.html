@@ -47,26 +47,36 @@
         <section class="section">
             <article>
                 <form action="#">
-                    <label for="nombre">Nombre y asunto:
-                        <input type="text" placeholder="Nombre y asunto" name="nombre">
+                    <label for="nombre"><p class="pForm"> Nombre y asunto: </p>
+                        <div class="input-group">
+                            <input type="text" aria-label="First name" class="form-control" placeholder="Nombre">
+                            <input type="text" aria-label="Last name" class="form-control" placeholder="Asunto">
+                        </div>
                     </label>
-                    <label for="email">Email de contacto:
-                        <input type="email" placeholder="example@hotmail.com" name="email">
-                    </label>
-                    <label for="Obervaciones">Obervaciones y/o número de pedido:
-                        <textarea placeholder="Comentarios..."></textarea>
-                    </label>
-                    <div>¿Queres suscribirte al newsletter?
-                        <input type="checkbox" name="acepta" value="1">
+                    <div class="mb-3 col-7">
+                        <label for="formGroupExampleInput" class="form-label"><p class="pForm"> Email de contacto: </p></label>
+                        <input type="text" class="form-control" id="formGroupExampleInput"
+                            placeholder="Nombre@example.com">
                     </div>
-                    <input type="submit" value="Si, quiero!" class="input">
-                    <input type="reset" value="Resetear" class="input">
+                    <div class="mb-3 col-8">
+                        <label for="exampleFormControlTextarea1" class="form-label"><p class="pForm"> Comentarios: </p></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input btn-secondary" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1"><p class="pForm"> ¿Quieres suscribirte al newsletter? </p></label>
+                    </div>
+                    <div class="d-grid gap-5 d-md-flex justify-content-md-center">
+                        <button type="button" class="btn btn-secondary">Si quiero!</button>
+                        <button type="button" class="btn btn-secondary">Enviar</button>
+                    </div>
+                </form>
                 </form>
             </article>
         </section>
     </main>
     <footer class="border footer">
-        <p>Seguinos para no perderte de nuestras novedades y promociones</p>
+        <p class="textoFooter">Seguinos para no perderte de nuestras novedades y promociones</p>
         <div>
             <a href="https://www.instagram.com/">
                 <img
