@@ -1,0 +1,12 @@
+.textoFooter{
+    font-weight: 500;
+    font-size: $font-size;
+    color: map-get($colores, "colorBasico");
+}
+
+.footer {
+    background-color: map-get($colores, "colorNavFooter");
+    margin-top: 17%;
+    text-align: center;
+    margin-bottom: 0rem;
+}

@@ -1,0 +1,13 @@
+.header {
+    background-color: map-get($colores, "colorNavFooter");
+    padding: 4px;
+
+nav {
+    .a {
+        font-size: $font-size;
+        color: map-get($colores, "colorBasico" ); }
+
+    &:hover {
+    color: map-get($colores, "colorBordeHover" ); }
+}
+}
